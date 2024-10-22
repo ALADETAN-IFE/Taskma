@@ -1,0 +1,11 @@
+/* Hide the website on screens larger than mobile (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+  body {
+      display: none; /* or you can use visibility: hidden; */
+  }
+}
+
+/* Style for mobile devices */
+body {
+  display: block; /* This will be the default for mobile screens */
+}
