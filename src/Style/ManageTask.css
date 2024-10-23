@@ -48,7 +48,7 @@ color: #F8FAFF;
     align-items: center;
     color: #3A3A3A;
 font-family: Poppins;
-font-size: 36px;
+font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -58,7 +58,7 @@ line-height: normal;
     height: 24%;
     color: #3A3A3A;
 font-family: Poppins;
-font-size: 27px;
+font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -67,5 +67,30 @@ line-height: normal;
 .progressbar{
     height: 40px;
     width: 100%;
-    background: green;
+    /* background: green; */
 }
+.progress-bar {
+    width: 90%;
+    
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+  }
+  
+  .stroke {
+    width: 50px;
+    height: 5px;
+    margin: 0 5px;
+    background-color: lightgray;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stroke.active {
+    background-color: black;
+  }
+  @media screen and (max-Width:320px){
+    .MangeTask-text{
+        font-size: 18px;
+    }
+    
+  }

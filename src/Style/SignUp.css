@@ -146,3 +146,20 @@ letter-spacing: 0.04px;
     cursor: pointer;
 }
 }
+@media screen and (max-Width:380px){
+    .SignUp-main{
+        height: 45%;
+    }
+    .button-container-signup{
+        height: 15%;
+        align-items: flex-end;
+    }
+}
+@media screen and (max-Width:380px){
+    .CreateAccount-text-holder{
+        font-size: 25px;
+    }
+    .create-account-btn{
+        height: 70%;
+    }
+}
