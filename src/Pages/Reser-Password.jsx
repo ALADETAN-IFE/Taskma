@@ -1,7 +1,9 @@
 import React from 'react'
 import "../Style/ResetPassword.css"
+import { useNavigate } from 'react-router-dom'
 
 const ResetPassword = () => {
+const navigate = useNavigate()
   return (
     <div className='Reset-Password'> 
        <div className='Welcome-header'>
@@ -14,7 +16,7 @@ const ResetPassword = () => {
         <input type='email' placeholder='Enter the email address' className='Resetpassword-input'/>
       </div>
       <div className='Resetpassword-holder'>
-        <button className='ResetBtn'>Reset Password</button>
+        <button className='ResetBtn' onClick={(()=>navigate('/reset-password-message'))}>Reset Password</button>
       </div>
       <div className='resetpasswood-footer'>Remember password? <span onClick={(()=>navigate('/sign-in'))}>Login</span></div>
       </div>

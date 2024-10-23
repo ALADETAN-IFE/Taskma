@@ -101,10 +101,27 @@ gap:10px;
     color: #2F313F;
 
 font-family: Poppins;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.04px;
 }
+}
+@media screen and (max-Width:380px){
+    .Login-container{
+        height: 20%;
+    }
+    .login-header{
+        height: 40%;
+        /* font-size: 24px; */
+    }
+}
+@media screen and (max-Width:320px){
+    .Login-container{
+        height: 15%;
+    }
+    .login-header{
+        height: 60%;
+    }
 }
